@@ -1,0 +1,97 @@
+body {
+    background-image: url("../imagem/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  #total {
+    width: 960px;
+    height: auto;
+    margin: auto;
+    border: solid 10px lightgray;
+  }
+  
+  #topo {
+    width: 960px;
+    height: auto;
+    background-color: orange;
+    padding: 10px 0;
+  }
+  
+  #logo {
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    background-color: white;
+  }
+  
+  #banner {
+    width: 960px;
+    height: 360px;
+    background-image: url("../imagem/banner.jpg");
+    position: relative;
+  }
+  
+  #menu {
+    width: 160px;
+    height: 200px;
+    background-color: rgb(58, 55, 55);
+    margin-top: 50px;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+  }
+  
+  #menu a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;/*texto em maiúsculo*/
+    /*margin-bottom: 15px;
+    padding-left:8px;
+    margin-top: 2px;
+    padding-bottom: 2px;
+    */
+    padding: 2px 0px 2px 8px;
+  }
+  
+  #menu a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  #menu a:hover{
+    background-image: url("../imagem/menu.png");
+  }   
+
+  #conteudo{
+    width: 960px;
+    height: 360px;
+    background-color: lightsalmon;
+  }
+  #rodape{
+    width: 960px;
+    height: 25px;
+    float: left;
+
+  }
+  .box{
+    width: 120px;
+    height: 90px;
+    float: left;
+    border: solid 10px; color: rgb(17, 144, 223);
+    margin: 0px 10px 20px 10 px;
+
+  }
+  body{
+    background-image: url("../imagem/background.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: bottom center;
+  }
+
+  h1{
+    background-image: url("../imagem/gradiente.png");
+    color: aliceblue
+    padding: 2px 10px;
+    margin: 20px 0px;
+  }
